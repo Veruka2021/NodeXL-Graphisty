@@ -14,7 +14,10 @@ Learn more about NodeXL here: (https://www.smrfoundation.org/nodexl/)
 
 **In this notebook, you will find the code on how to visualize your NodeXL data in Graphistry using Python!** ⭐
 
-![image](https://github.com/Veruka2021/NodeXL-Graphisty/assets/45179423/db253cfe-7e2b-44e0-b016-89106727e85d)
+
+![](https://github.com/Veruka2021/NodeXL-Graphisty/blob/main/Demo_GIF.gif)
+
+
 
 
 
