@@ -1,0 +1,13 @@
+pip install -q --user graphistry pandas 
+# Sometimes also need to install a new system Excel parser and pass in as `graphistry.nodexl(..., engine='openpyxl')
+!pip install openpyxl
+import pandas as pd
+import graphistry
+graphistry.__version__
+# To specify Graphistry account & server, use:
+graphistry.register(api=3, username='YOUR USER NAME', password='GRAPHISTRY PASSWORD', protocol='https', server='hub.graphistry.com')
+#g = NodeXLGraphistry().xls(xls, 'twitter')
+g = graphistry.nodexl('http://nodexlgraphgallery.org/Pages/Workbook.ashx?graphID=285611')
+print('%s nodes, %s edges' % (len(g._nodes), len(g._edges)))
+g._nodes.sample(2)
+g.plot()
