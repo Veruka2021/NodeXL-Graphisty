@@ -8,7 +8,8 @@ Learn more about graphistry here: (https://www.graphistry.com/)
 ## **¿What is NodeXL?**
 
 The Social Media Research Foundation is the home of the network analysis tool NodeXL — Network Overview Discovery and Exploration for Excel (2010, 2013 and 2016) — extending the familiar spreadsheet so you can collect, analyze and visualize complex social networks
-Learn more about NodeXL here: ([https://www.graphistry.com/](https://www.smrfoundation.org/nodexl/))
+
+Learn more about NodeXL here: (https://www.smrfoundation.org/nodexl/)
 
 
 **In this notebook, you will find the code on how to visualize your NodeXL data in Graphistry using Python!** ⭐
